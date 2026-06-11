@@ -38,7 +38,7 @@ jobs:
         # --vulnerable-path only audits crates in the compiled dep tree,
         # skipping lock-file-only entries (e.g. sqlx-mysql → rsa which
         # is behind an unused optional feature).
-        run: cargo audit --vulnerable-path
+        run: cargo audit --vulnerable
 
       - name: Build
         run: cargo build --release
