@@ -110,27 +110,49 @@ def generate_correct_fixtures(groups: list) -> pd.DataFrame:
     return pd.DataFrame(rows)
 
 
+BASE_DRAW_RATE = 0.24
+
+
+def elo_expected(elo_a: float, elo_b: float) -> float:
+    return 1.0 / (1.0 + 10.0 ** ((elo_b - elo_a) / 400.0))
+
+
+def load_elo_form_values() -> dict:
+    with open(ELO_FORM_PATH) as f:
+        return json.load(f)
+
+
 def build_2026_features(m2026: pd.DataFrame, form: dict) -> pd.DataFrame:
+    elo_values = load_elo_form_values()
     rows = []
     for _, match in m2026.iterrows():
         home = match["home_team"]
         away = match["away_team"]
-        home_form = form.get((home, "2026-06-11"), {})
-        away_form = form.get((away, "2026-06-11"), {})
+        home_elo = elo_values.get(home, {})
+        away_elo = elo_values.get(away, {})
+
+        e_home = elo_expected(
+            home_elo.get("elo", 1500),
+            away_elo.get("elo", 1500),
+        )
+        e_away = 1.0 - e_home
+        h2h_home = round(e_home * (1.0 - BASE_DRAW_RATE), 3)
+        h2h_away = round(e_away * (1.0 - BASE_DRAW_RATE), 3)
+
         rows.append({
             "match_id": match["match_id"],
             "season": 2026,
             "home_team": home,
             "away_team": away,
-            "home_form_gf": home_form.get("form_avg_gf", 1.5),
-            "home_form_ga": home_form.get("form_avg_ga", 1.5),
-            "home_form_pts": home_form.get("form_avg_pts", 1.5),
-            "away_form_gf": away_form.get("form_avg_gf", 1.5),
-            "away_form_ga": away_form.get("form_avg_ga", 1.5),
-            "away_form_pts": away_form.get("form_avg_pts", 1.5),
-            "h2h_home_win_rate": 0.33,
-            "h2h_away_win_rate": 0.33,
-            "h2h_draw_rate": 0.33,
+            "home_form_gf": home_elo.get("form_gf", 1.5),
+            "home_form_ga": home_elo.get("form_ga", 1.5),
+            "home_form_pts": home_elo.get("form_pts", 1.5),
+            "away_form_gf": away_elo.get("form_gf", 1.5),
+            "away_form_ga": away_elo.get("form_ga", 1.5),
+            "away_form_pts": away_elo.get("form_pts", 1.5),
+            "h2h_home_win_rate": h2h_home,
+            "h2h_away_win_rate": h2h_away,
+            "h2h_draw_rate": BASE_DRAW_RATE,
             "knockout": 0,
         })
     return pd.DataFrame(rows)
