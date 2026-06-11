@@ -1,6 +1,7 @@
 mod models;
 mod routes;
 mod db;
+mod poller;
 
 use actix_web::{web, App, HttpServer};
 use actix_cors::Cors;
@@ -11,9 +12,23 @@ use tracing_actix_web::TracingLogger;
 
 fn load_matches() -> Vec<models::match_model::Match> {
     let path = std::env::var("MATCHES_PATH")
-        .unwrap_or_else(|_| "../pipeline/data/raw/2026_matches.parquet".into());
-    tracing::info!("Loading matches from: {}", path);
-    Vec::new()
+        .unwrap_or_else(|_| "/app/artifacts/2026_matches.json".into());
+    match std::fs::read_to_string(&path) {
+        Ok(content) => match serde_json::from_str::<Vec<models::match_model::Match>>(&content) {
+            Ok(m) => {
+                tracing::info!("Loaded {} matches from {}", m.len(), path);
+                m
+            }
+            Err(e) => {
+                tracing::warn!("Failed to parse matches: {}", e);
+                Vec::new()
+            }
+        },
+        Err(e) => {
+            tracing::warn!("Failed to read matches file: {}", e);
+            Vec::new()
+        }
+    }
 }
 
 fn load_predictions() -> Vec<models::prediction::Prediction> {
@@ -130,6 +145,21 @@ async fn main() -> std::io::Result<()> {
 
     let db_pool_data = web::Data::new(db_pool);
 
+    // Start the live-results poller if API key is set
+    if let Ok(api_key) = dotenvy::var("FOOTBALL_DATA_API_KEY") {
+        let artifacts_path = std::env::var("ARTIFACTS_PATH")
+            .unwrap_or_else(|_| "../artifacts".into());
+        poller::start(
+            api_key,
+            app_state.clone(),
+            groups_state.clone(),
+            db_pool_data.clone(),
+            artifacts_path,
+        );
+    } else {
+        tracing::warn!("FOOTBALL_DATA_API_KEY not set — live polling disabled");
+    }
+
     HttpServer::new(move || {
         let cors = Cors::permissive();
         App::new()
@@ -147,7 +177,6 @@ async fn main() -> std::io::Result<()> {
             .service(routes::predictions::get_match_prediction)
             .service(routes::predictions::get_tournament_prediction)
             .service(routes::groups::get_groups)
-            .service(routes::reload::reload)
     })
     .bind((host.as_str(), port))?
     .run()
