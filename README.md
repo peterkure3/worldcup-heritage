@@ -167,4 +167,4 @@ docker compose down -v
 
 ## Known Issues
 
-- **`rsa` crate (RUSTSEC-2023-0071)**: Transitive dependency via `sqlx-mysql`, an **unused optional feature** (we use PostgreSQL only). Not compiled, not exploitable. CI uses `cargo audit --vulnerable` which only scans the compiled dependency tree, so this advisory is automatically skipped.
+- **`rsa` crate (RUSTSEC-2023-0071)**: Transitive dependency via `sqlx-mysql`, an **unused optional feature** (we use PostgreSQL only). Not compiled, not exploitable. CI runs `cargo audit` and ignores this advisory since the affected code path is never compiled.
