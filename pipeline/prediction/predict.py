@@ -25,17 +25,13 @@ FEATURE_COLS = [
 GROUP_NAMES = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L"]
 
 TEAM_NAME_MAP = {
-    "Bosnia-Herzegovina": "Bosnia and Herzegovina",
-    "Cape Verde Islands": "Cape Verde",
-    "Congo DR": "Democratic Republic of the Congo",
-    "Czechia": "Czech Republic",
+    "DR Congo": "Zaire",
+    "Curaçao": "Curacao",
 }
 
 def normalize_team(name: str) -> str:
     if name in TEAM_NAME_MAP:
         return TEAM_NAME_MAP[name]
-    if "Cura" in name and ("ao" in name or "\xe7" in name):
-        return "Curacao"
     return name
 
 
@@ -83,7 +79,7 @@ def load_groups() -> list:
         data = json.load(f)
     groups = []
     for g in data["groups"]:
-        teams = [normalize_team(t["team_name"]) for t in g["standings"]]
+        teams = [t["team_name"] for t in g["standings"]]
         groups.append({"name": g["name"], "teams": teams})
     return groups
 

@@ -1,36 +1,136 @@
 [
   {
     "match_id": 537327,
-    "home_team": "South Africa",
-    "away_team": "Brazil",
-    "home_win_prob": 0.08396194875240326,
-    "draw_prob": 0.39683786034584045,
-    "away_win_prob": 0.5192001461982727,
-    "predicted_winner": "Brazil",
-    "confidence": 0.5192001461982727
+    "home_team": "Mexico",
+    "away_team": "South Korea",
+    "home_win_prob": 0.47552981972694397,
+    "draw_prob": 0.5057529807090759,
+    "away_win_prob": 0.018717162311077118,
+    "predicted_winner": "Mexico",
+    "confidence": 0.5057529807090759
   },
   {
     "match_id": 537328,
-    "home_team": "South Africa",
-    "away_team": "Scotland",
-    "home_win_prob": 0.2719845175743103,
-    "draw_prob": 0.703559160232544,
-    "away_win_prob": 0.024456379935145378,
-    "predicted_winner": "South Africa",
-    "confidence": 0.703559160232544
+    "home_team": "Mexico",
+    "away_team": "South Africa",
+    "home_win_prob": 0.45946773886680603,
+    "draw_prob": 0.2988189160823822,
+    "away_win_prob": 0.24171335995197296,
+    "predicted_winner": "Mexico",
+    "confidence": 0.45946773886680603
   },
   {
     "match_id": 537329,
-    "home_team": "South Africa",
-    "away_team": "Turkey",
-    "home_win_prob": 0.08234886825084686,
-    "draw_prob": 0.10606613010168076,
-    "away_win_prob": 0.8115850687026978,
-    "predicted_winner": "Turkey",
-    "confidence": 0.8115850687026978
+    "home_team": "Mexico",
+    "away_team": "Czech Republic",
+    "home_win_prob": 0.47366878390312195,
+    "draw_prob": 0.27665576338768005,
+    "away_win_prob": 0.24967537820339203,
+    "predicted_winner": "Mexico",
+    "confidence": 0.47366878390312195
   },
   {
     "match_id": 537330,
+    "home_team": "South Korea",
+    "away_team": "South Africa",
+    "home_win_prob": 0.00583107303828001,
+    "draw_prob": 0.8373011350631714,
+    "away_win_prob": 0.15686772763729095,
+    "predicted_winner": "South Africa",
+    "confidence": 0.8373011350631714
+  },
+  {
+    "match_id": 537331,
+    "home_team": "South Korea",
+    "away_team": "Czech Republic",
+    "home_win_prob": 0.005246065557003021,
+    "draw_prob": 0.8377938866615295,
+    "away_win_prob": 0.15696004033088684,
+    "predicted_winner": "Czech Republic",
+    "confidence": 0.8377938866615295
+  },
+  {
+    "match_id": 537332,
+    "home_team": "South Africa",
+    "away_team": "Czech Republic",
+    "home_win_prob": 0.24705933034420013,
+    "draw_prob": 0.3706274628639221,
+    "away_win_prob": 0.38231322169303894,
+    "predicted_winner": "Czech Republic",
+    "confidence": 0.38231322169303894
+  },
+  {
+    "match_id": 537333,
+    "home_team": "Canada",
+    "away_team": "Switzerland",
+    "home_win_prob": 0.0030995530541986227,
+    "draw_prob": 0.8294538259506226,
+    "away_win_prob": 0.16744667291641235,
+    "predicted_winner": "Switzerland",
+    "confidence": 0.8294538259506226
+  },
+  {
+    "match_id": 537334,
+    "home_team": "Canada",
+    "away_team": "Qatar",
+    "home_win_prob": 0.006770814303308725,
+    "draw_prob": 0.897049605846405,
+    "away_win_prob": 0.0961795300245285,
+    "predicted_winner": "Qatar",
+    "confidence": 0.897049605846405
+  },
+  {
+    "match_id": 537335,
+    "home_team": "Canada",
+    "away_team": "Bosnia and Herzegovina",
+    "home_win_prob": 0.00583107303828001,
+    "draw_prob": 0.8373011350631714,
+    "away_win_prob": 0.15686772763729095,
+    "predicted_winner": "Bosnia and Herzegovina",
+    "confidence": 0.8373011350631714
+  },
+  {
+    "match_id": 537336,
+    "home_team": "Switzerland",
+    "away_team": "Qatar",
+    "home_win_prob": 0.28713521361351013,
+    "draw_prob": 0.5842424631118774,
+    "away_win_prob": 0.12862230837345123,
+    "predicted_winner": "Switzerland",
+    "confidence": 0.5842424631118774
+  },
+  {
+    "match_id": 537337,
+    "home_team": "Switzerland",
+    "away_team": "Bosnia and Herzegovina",
+    "home_win_prob": 0.19227837026119232,
+    "draw_prob": 0.5823172926902771,
+    "away_win_prob": 0.22540436685085297,
+    "predicted_winner": "Bosnia and Herzegovina",
+    "confidence": 0.5823172926902771
+  },
+  {
+    "match_id": 537338,
+    "home_team": "Qatar",
+    "away_team": "Bosnia and Herzegovina",
+    "home_win_prob": 0.170599102973938,
+    "draw_prob": 0.4314146339893341,
+    "away_win_prob": 0.3979862928390503,
+    "predicted_winner": "Bosnia and Herzegovina",
+    "confidence": 0.4314146339893341
+  },
+  {
+    "match_id": 537339,
+    "home_team": "Brazil",
+    "away_team": "Morocco",
+    "home_win_prob": 0.5790273547172546,
+    "draw_prob": 0.39904507994651794,
+    "away_win_prob": 0.021927550435066223,
+    "predicted_winner": "Brazil",
+    "confidence": 0.5790273547172546
+  },
+  {
+    "match_id": 537340,
     "home_team": "Brazil",
     "away_team": "Scotland",
     "home_win_prob": 0.7021731734275818,
@@ -40,408 +140,48 @@
     "confidence": 0.7021731734275818
   },
   {
-    "match_id": 537331,
-    "home_team": "Brazil",
-    "away_team": "Turkey",
-    "home_win_prob": 0.46885666251182556,
-    "draw_prob": 0.4725385904312134,
-    "away_win_prob": 0.058604806661605835,
-    "predicted_winner": "Brazil",
-    "confidence": 0.4725385904312134
-  },
-  {
-    "match_id": 537332,
-    "home_team": "Scotland",
-    "away_team": "Turkey",
-    "home_win_prob": 0.005268994718790054,
-    "draw_prob": 0.1951160579919815,
-    "away_win_prob": 0.7996149659156799,
-    "predicted_winner": "Turkey",
-    "confidence": 0.7996149659156799
-  },
-  {
-    "match_id": 537333,
-    "home_team": "Ivory Coast",
-    "away_team": "Netherlands",
-    "home_win_prob": 0.08396194875240326,
-    "draw_prob": 0.39683786034584045,
-    "away_win_prob": 0.5192001461982727,
-    "predicted_winner": "Netherlands",
-    "confidence": 0.5192001461982727
-  },
-  {
-    "match_id": 537334,
-    "home_team": "Ivory Coast",
-    "away_team": "Cape Verde",
-    "home_win_prob": 0.3126183748245239,
-    "draw_prob": 0.6642903089523315,
-    "away_win_prob": 0.023091357201337814,
-    "predicted_winner": "Ivory Coast",
-    "confidence": 0.6642903089523315
-  },
-  {
-    "match_id": 537335,
-    "home_team": "Ivory Coast",
-    "away_team": "France",
-    "home_win_prob": 0.04974433779716492,
-    "draw_prob": 0.09757915884256363,
-    "away_win_prob": 0.8526764512062073,
-    "predicted_winner": "France",
-    "confidence": 0.8526764512062073
-  },
-  {
-    "match_id": 537336,
-    "home_team": "Netherlands",
-    "away_team": "Cape Verde",
-    "home_win_prob": 0.674375593662262,
-    "draw_prob": 0.3206127882003784,
-    "away_win_prob": 0.005011643283069134,
-    "predicted_winner": "Netherlands",
-    "confidence": 0.674375593662262
-  },
-  {
-    "match_id": 537337,
-    "home_team": "Netherlands",
-    "away_team": "France",
-    "home_win_prob": 0.2574321925640106,
-    "draw_prob": 0.3300122618675232,
-    "away_win_prob": 0.4125554859638214,
-    "predicted_winner": "France",
-    "confidence": 0.4125554859638214
-  },
-  {
-    "match_id": 537338,
-    "home_team": "Cape Verde",
-    "away_team": "France",
-    "home_win_prob": 0.0015008958289399743,
-    "draw_prob": 0.03997138515114784,
-    "away_win_prob": 0.958527684211731,
-    "predicted_winner": "France",
-    "confidence": 0.958527684211731
-  },
-  {
-    "match_id": 537339,
-    "home_team": "Tunisia",
-    "away_team": "Egypt",
-    "home_win_prob": 0.016676081344485283,
-    "draw_prob": 0.9693318009376526,
-    "away_win_prob": 0.013992083258926868,
-    "predicted_winner": "Tunisia",
-    "confidence": 0.9693318009376526
-  },
-  {
-    "match_id": 537340,
-    "home_team": "Tunisia",
-    "away_team": "Iraq",
-    "home_win_prob": 0.016969891265034676,
-    "draw_prob": 0.9690422415733337,
-    "away_win_prob": 0.013987903483211994,
-    "predicted_winner": "Tunisia",
-    "confidence": 0.9690422415733337
-  },
-  {
     "match_id": 537341,
-    "home_team": "Tunisia",
-    "away_team": "Portugal",
-    "home_win_prob": 0.007273126859217882,
-    "draw_prob": 0.17998051643371582,
-    "away_win_prob": 0.8127463459968567,
-    "predicted_winner": "Portugal",
-    "confidence": 0.8127463459968567
+    "home_team": "Brazil",
+    "away_team": "Haiti",
+    "home_win_prob": 0.8641328811645508,
+    "draw_prob": 0.12647482752799988,
+    "away_win_prob": 0.009392309933900833,
+    "predicted_winner": "Brazil",
+    "confidence": 0.8641328811645508
   },
   {
     "match_id": 537342,
-    "home_team": "Egypt",
-    "away_team": "Iraq",
-    "home_win_prob": 0.016969891265034676,
-    "draw_prob": 0.9690422415733337,
-    "away_win_prob": 0.013987903483211994,
-    "predicted_winner": "Egypt",
-    "confidence": 0.9690422415733337
+    "home_team": "Morocco",
+    "away_team": "Scotland",
+    "home_win_prob": 0.13580913841724396,
+    "draw_prob": 0.8503743410110474,
+    "away_win_prob": 0.013816502876579762,
+    "predicted_winner": "Morocco",
+    "confidence": 0.8503743410110474
   },
   {
     "match_id": 537343,
-    "home_team": "Egypt",
-    "away_team": "Portugal",
-    "home_win_prob": 0.007273126859217882,
-    "draw_prob": 0.17998051643371582,
-    "away_win_prob": 0.8127463459968567,
-    "predicted_winner": "Portugal",
-    "confidence": 0.8127463459968567
+    "home_team": "Morocco",
+    "away_team": "Haiti",
+    "home_win_prob": 0.28713521361351013,
+    "draw_prob": 0.5842424631118774,
+    "away_win_prob": 0.12862230837345123,
+    "predicted_winner": "Morocco",
+    "confidence": 0.5842424631118774
   },
   {
     "match_id": 537344,
-    "home_team": "Iraq",
-    "away_team": "Portugal",
-    "home_win_prob": 0.006682251114398241,
-    "draw_prob": 0.1691564917564392,
-    "away_win_prob": 0.8241612911224365,
-    "predicted_winner": "Portugal",
-    "confidence": 0.8241612911224365
+    "home_team": "Scotland",
+    "away_team": "Haiti",
+    "home_win_prob": 0.022723956033587456,
+    "draw_prob": 0.8206968307495117,
+    "away_win_prob": 0.15657924115657806,
+    "predicted_winner": "Haiti",
+    "confidence": 0.8206968307495117
   },
   {
     "match_id": 537345,
-    "home_team": "Uzbekistan",
-    "away_team": "Colombia",
-    "home_win_prob": 0.00850699469447136,
-    "draw_prob": 0.6812482476234436,
-    "away_win_prob": 0.31024473905563354,
-    "predicted_winner": "Colombia",
-    "confidence": 0.6812482476234436
-  },
-  {
-    "match_id": 537346,
-    "home_team": "Uzbekistan",
-    "away_team": "Ecuador",
-    "home_win_prob": 0.00850699469447136,
-    "draw_prob": 0.6812482476234436,
-    "away_win_prob": 0.31024473905563354,
-    "predicted_winner": "Ecuador",
-    "confidence": 0.6812482476234436
-  },
-  {
-    "match_id": 537347,
-    "home_team": "Uzbekistan",
-    "away_team": "Japan",
-    "home_win_prob": 0.015373118221759796,
-    "draw_prob": 0.9689049124717712,
-    "away_win_prob": 0.015721989795565605,
-    "predicted_winner": "Japan",
-    "confidence": 0.9689049124717712
-  },
-  {
-    "match_id": 537348,
-    "home_team": "Colombia",
-    "away_team": "Ecuador",
-    "home_win_prob": 0.1269047111272812,
-    "draw_prob": 0.6498616337776184,
-    "away_win_prob": 0.2232336699962616,
-    "predicted_winner": "Ecuador",
-    "confidence": 0.6498616337776184
-  },
-  {
-    "match_id": 537349,
-    "home_team": "Colombia",
-    "away_team": "Japan",
-    "home_win_prob": 0.15004339814186096,
-    "draw_prob": 0.836367666721344,
-    "away_win_prob": 0.013588928617537022,
-    "predicted_winner": "Colombia",
-    "confidence": 0.836367666721344
-  },
-  {
-    "match_id": 537350,
-    "home_team": "Ecuador",
-    "away_team": "Japan",
-    "home_win_prob": 0.14981350302696228,
-    "draw_prob": 0.8350862264633179,
-    "away_win_prob": 0.015100301243364811,
-    "predicted_winner": "Ecuador",
-    "confidence": 0.8350862264633179
-  },
-  {
-    "match_id": 537351,
-    "home_team": "New Zealand",
-    "away_team": "Saudi Arabia",
-    "home_win_prob": 0.8220599293708801,
-    "draw_prob": 0.1729775369167328,
-    "away_win_prob": 0.00496253464370966,
-    "predicted_winner": "New Zealand",
-    "confidence": 0.8220599293708801
-  },
-  {
-    "match_id": 537352,
-    "home_team": "New Zealand",
-    "away_team": "Austria",
-    "home_win_prob": 0.23911701142787933,
-    "draw_prob": 0.3994247019290924,
-    "away_win_prob": 0.36145827174186707,
-    "predicted_winner": "Austria",
-    "confidence": 0.3994247019290924
-  },
-  {
-    "match_id": 537353,
-    "home_team": "New Zealand",
-    "away_team": "Ghana",
-    "home_win_prob": 0.24705933034420013,
-    "draw_prob": 0.3706274628639221,
-    "away_win_prob": 0.38231322169303894,
-    "predicted_winner": "Ghana",
-    "confidence": 0.38231322169303894
-  },
-  {
-    "match_id": 537354,
-    "home_team": "Saudi Arabia",
-    "away_team": "Austria",
-    "home_win_prob": 0.004980061668902636,
-    "draw_prob": 0.8841567635536194,
-    "away_win_prob": 0.11086314916610718,
-    "predicted_winner": "Austria",
-    "confidence": 0.8841567635536194
-  },
-  {
-    "match_id": 537355,
-    "home_team": "Saudi Arabia",
-    "away_team": "Ghana",
-    "home_win_prob": 0.004486881196498871,
-    "draw_prob": 0.8859502077102661,
-    "away_win_prob": 0.1095629408955574,
-    "predicted_winner": "Ghana",
-    "confidence": 0.8859502077102661
-  },
-  {
-    "match_id": 537356,
-    "home_team": "Austria",
-    "away_team": "Ghana",
-    "home_win_prob": 0.2473955750465393,
-    "draw_prob": 0.37845954298973083,
-    "away_win_prob": 0.37414491176605225,
-    "predicted_winner": "Ghana",
-    "confidence": 0.37845954298973083
-  },
-  {
-    "match_id": 537357,
-    "home_team": "South Korea",
-    "away_team": "Spain",
-    "home_win_prob": 0.004263159353286028,
-    "draw_prob": 0.3036530911922455,
-    "away_win_prob": 0.6920837759971619,
-    "predicted_winner": "Spain",
-    "confidence": 0.6920837759971619
-  },
-  {
-    "match_id": 537358,
-    "home_team": "South Korea",
-    "away_team": "Norway",
-    "home_win_prob": 0.004356534220278263,
-    "draw_prob": 0.8041006326675415,
-    "away_win_prob": 0.19154278934001923,
-    "predicted_winner": "Norway",
-    "confidence": 0.8041006326675415
-  },
-  {
-    "match_id": 537359,
-    "home_team": "South Korea",
-    "away_team": "Argentina",
-    "home_win_prob": 0.001279556890949607,
-    "draw_prob": 0.06824630498886108,
-    "away_win_prob": 0.9304741621017456,
-    "predicted_winner": "Argentina",
-    "confidence": 0.9304741621017456
-  },
-  {
-    "match_id": 537360,
-    "home_team": "Spain",
-    "away_team": "Norway",
-    "home_win_prob": 0.6260654330253601,
-    "draw_prob": 0.28726595640182495,
-    "away_win_prob": 0.08666866272687912,
-    "predicted_winner": "Spain",
-    "confidence": 0.6260654330253601
-  },
-  {
-    "match_id": 537361,
-    "home_team": "Spain",
-    "away_team": "Argentina",
-    "home_win_prob": 0.04967132583260536,
-    "draw_prob": 0.08883221447467804,
-    "away_win_prob": 0.8614964485168457,
-    "predicted_winner": "Argentina",
-    "confidence": 0.8614964485168457
-  },
-  {
-    "match_id": 537362,
-    "home_team": "Norway",
-    "away_team": "Argentina",
-    "home_win_prob": 0.033654678612947464,
-    "draw_prob": 0.3527615964412689,
-    "away_win_prob": 0.6135837435722351,
-    "predicted_winner": "Argentina",
-    "confidence": 0.6135837435722351
-  },
-  {
-    "match_id": 537363,
-    "home_team": "Democratic Republic of the Congo",
-    "away_team": "England",
-    "home_win_prob": 0.06494414806365967,
-    "draw_prob": 0.09809517860412598,
-    "away_win_prob": 0.8369606733322144,
-    "predicted_winner": "England",
-    "confidence": 0.8369606733322144
-  },
-  {
-    "match_id": 537364,
-    "home_team": "Democratic Republic of the Congo",
-    "away_team": "Czech Republic",
-    "home_win_prob": 0.18635298311710358,
-    "draw_prob": 0.4232202172279358,
-    "away_win_prob": 0.3904268443584442,
-    "predicted_winner": "Czech Republic",
-    "confidence": 0.4232202172279358
-  },
-  {
-    "match_id": 537365,
-    "home_team": "Democratic Republic of the Congo",
-    "away_team": "Canada",
-    "home_win_prob": 0.21127064526081085,
-    "draw_prob": 0.7646498680114746,
-    "away_win_prob": 0.024079546332359314,
-    "predicted_winner": "Democratic Republic of the Congo",
-    "confidence": 0.7646498680114746
-  },
-  {
-    "match_id": 537366,
-    "home_team": "England",
-    "away_team": "Czech Republic",
-    "home_win_prob": 0.7589437961578369,
-    "draw_prob": 0.19868752360343933,
-    "away_win_prob": 0.04236868768930435,
-    "predicted_winner": "England",
-    "confidence": 0.7589437961578369
-  },
-  {
-    "match_id": 537367,
-    "home_team": "England",
-    "away_team": "Canada",
-    "home_win_prob": 0.6018325090408325,
-    "draw_prob": 0.39290252327919006,
-    "away_win_prob": 0.005264970939606428,
-    "predicted_winner": "England",
-    "confidence": 0.6018325090408325
-  },
-  {
-    "match_id": 537368,
-    "home_team": "Czech Republic",
-    "away_team": "Canada",
-    "home_win_prob": 0.36167389154434204,
-    "draw_prob": 0.6201746463775635,
-    "away_win_prob": 0.018151462078094482,
-    "predicted_winner": "Czech Republic",
-    "confidence": 0.6201746463775635
-  },
-  {
-    "match_id": 537369,
-    "home_team": "Qatar",
-    "away_team": "Switzerland",
-    "home_win_prob": 0.08980360627174377,
-    "draw_prob": 0.37640947103500366,
-    "away_win_prob": 0.533786952495575,
-    "predicted_winner": "Switzerland",
-    "confidence": 0.533786952495575
-  },
-  {
-    "match_id": 537370,
-    "home_team": "Qatar",
-    "away_team": "Morocco",
-    "home_win_prob": 0.08980360627174377,
-    "draw_prob": 0.37640947103500366,
-    "away_win_prob": 0.533786952495575,
-    "predicted_winner": "Morocco",
-    "confidence": 0.533786952495575
-  },
-  {
-    "match_id": 537371,
-    "home_team": "Qatar",
+    "home_team": "United States",
     "away_team": "Paraguay",
     "home_win_prob": 0.07295120507478714,
     "draw_prob": 0.43453022837638855,
@@ -450,247 +190,177 @@
     "confidence": 0.4925185739994049
   },
   {
-    "match_id": 537372,
-    "home_team": "Switzerland",
-    "away_team": "Morocco",
-    "home_win_prob": 0.1269047111272812,
-    "draw_prob": 0.6498616337776184,
-    "away_win_prob": 0.2232336699962616,
-    "predicted_winner": "Morocco",
-    "confidence": 0.6498616337776184
-  },
-  {
-    "match_id": 537373,
-    "home_team": "Switzerland",
-    "away_team": "Paraguay",
-    "home_win_prob": 0.11415238678455353,
-    "draw_prob": 0.6577698588371277,
-    "away_win_prob": 0.22807778418064117,
-    "predicted_winner": "Paraguay",
-    "confidence": 0.6577698588371277
-  },
-  {
-    "match_id": 537374,
-    "home_team": "Morocco",
-    "away_team": "Paraguay",
-    "home_win_prob": 0.11415238678455353,
-    "draw_prob": 0.6577698588371277,
-    "away_win_prob": 0.22807778418064117,
-    "predicted_winner": "Paraguay",
-    "confidence": 0.6577698588371277
-  },
-  {
-    "match_id": 537375,
-    "home_team": "Curacao",
-    "away_team": "Sweden",
-    "home_win_prob": 0.5477893352508545,
-    "draw_prob": 0.19131240248680115,
-    "away_win_prob": 0.26089829206466675,
-    "predicted_winner": "Curacao",
-    "confidence": 0.5477893352508545
-  },
-  {
-    "match_id": 537376,
-    "home_team": "Curacao",
-    "away_team": "Algeria",
-    "home_win_prob": 0.7497861385345459,
-    "draw_prob": 0.21198053658008575,
-    "away_win_prob": 0.038233328610658646,
-    "predicted_winner": "Curacao",
-    "confidence": 0.7497861385345459
-  },
-  {
-    "match_id": 537377,
-    "home_team": "Curacao",
-    "away_team": "Jordan",
-    "home_win_prob": 0.45137354731559753,
-    "draw_prob": 0.5405393838882446,
-    "away_win_prob": 0.008087105117738247,
-    "predicted_winner": "Curacao",
-    "confidence": 0.5405393838882446
-  },
-  {
-    "match_id": 537378,
-    "home_team": "Sweden",
-    "away_team": "Algeria",
-    "home_win_prob": 0.6183833479881287,
-    "draw_prob": 0.2541636526584625,
-    "away_win_prob": 0.12745301425457,
-    "predicted_winner": "Sweden",
-    "confidence": 0.6183833479881287
-  },
-  {
-    "match_id": 537379,
-    "home_team": "Sweden",
-    "away_team": "Jordan",
-    "home_win_prob": 0.44716936349868774,
-    "draw_prob": 0.5331013202667236,
-    "away_win_prob": 0.019729282706975937,
-    "predicted_winner": "Sweden",
-    "confidence": 0.5331013202667236
-  },
-  {
-    "match_id": 537380,
-    "home_team": "Algeria",
-    "away_team": "Jordan",
-    "home_win_prob": 0.1840045154094696,
-    "draw_prob": 0.7849359512329102,
-    "away_win_prob": 0.031059550121426582,
-    "predicted_winner": "Algeria",
-    "confidence": 0.7849359512329102
-  },
-  {
-    "match_id": 537381,
-    "home_team": "Haiti",
-    "away_team": "Germany",
-    "home_win_prob": 0.04530010372400284,
-    "draw_prob": 0.31301602721214294,
-    "away_win_prob": 0.6416838765144348,
-    "predicted_winner": "Germany",
-    "confidence": 0.6416838765144348
-  },
-  {
-    "match_id": 537382,
-    "home_team": "Haiti",
-    "away_team": "Uruguay",
-    "home_win_prob": 0.04980229213833809,
-    "draw_prob": 0.08186443150043488,
-    "away_win_prob": 0.8683332204818726,
-    "predicted_winner": "Uruguay",
-    "confidence": 0.8683332204818726
-  },
-  {
-    "match_id": 537383,
-    "home_team": "Haiti",
-    "away_team": "Senegal",
-    "home_win_prob": 0.059054672718048096,
-    "draw_prob": 0.07817385345697403,
-    "away_win_prob": 0.8627714514732361,
-    "predicted_winner": "Senegal",
-    "confidence": 0.8627714514732361
-  },
-  {
-    "match_id": 537384,
-    "home_team": "Germany",
-    "away_team": "Uruguay",
-    "home_win_prob": 0.5390701293945312,
-    "draw_prob": 0.3947278559207916,
-    "away_win_prob": 0.0662020742893219,
-    "predicted_winner": "Germany",
-    "confidence": 0.5390701293945312
-  },
-  {
-    "match_id": 537385,
-    "home_team": "Germany",
-    "away_team": "Senegal",
-    "home_win_prob": 0.6542862057685852,
-    "draw_prob": 0.2693731188774109,
-    "away_win_prob": 0.07634063810110092,
-    "predicted_winner": "Germany",
-    "confidence": 0.6542862057685852
-  },
-  {
-    "match_id": 537386,
-    "home_team": "Uruguay",
-    "away_team": "Senegal",
-    "home_win_prob": 0.3130847215652466,
-    "draw_prob": 0.15460537374019623,
-    "away_win_prob": 0.532309889793396,
-    "predicted_winner": "Senegal",
-    "confidence": 0.532309889793396
-  },
-  {
-    "match_id": 537387,
-    "home_team": "Panama",
-    "away_team": "Mexico",
-    "home_win_prob": 0.07065143436193466,
-    "draw_prob": 0.090602807700634,
-    "away_win_prob": 0.8387457132339478,
-    "predicted_winner": "Mexico",
-    "confidence": 0.8387457132339478
-  },
-  {
-    "match_id": 537388,
-    "home_team": "Panama",
-    "away_team": "Bosnia and Herzegovina",
-    "home_win_prob": 0.170599102973938,
-    "draw_prob": 0.4314146339893341,
-    "away_win_prob": 0.3979862928390503,
-    "predicted_winner": "Bosnia and Herzegovina",
-    "confidence": 0.4314146339893341
-  },
-  {
-    "match_id": 537389,
-    "home_team": "Panama",
-    "away_team": "United States",
+    "match_id": 537346,
+    "home_team": "United States",
+    "away_team": "Australia",
     "home_win_prob": 0.202495276927948,
     "draw_prob": 0.5056442618370056,
     "away_win_prob": 0.2918604612350464,
-    "predicted_winner": "United States",
+    "predicted_winner": "Australia",
     "confidence": 0.5056442618370056
   },
   {
-    "match_id": 537390,
-    "home_team": "Mexico",
-    "away_team": "Bosnia and Herzegovina",
-    "home_win_prob": 0.45946773886680603,
-    "draw_prob": 0.2988189160823822,
-    "away_win_prob": 0.24171335995197296,
-    "predicted_winner": "Mexico",
-    "confidence": 0.45946773886680603
+    "match_id": 537347,
+    "home_team": "United States",
+    "away_team": "Turkey",
+    "home_win_prob": 0.04477968439459801,
+    "draw_prob": 0.09912122786045074,
+    "away_win_prob": 0.8560991287231445,
+    "predicted_winner": "Turkey",
+    "confidence": 0.8560991287231445
   },
   {
-    "match_id": 537391,
-    "home_team": "Mexico",
-    "away_team": "United States",
-    "home_win_prob": 0.6183833479881287,
-    "draw_prob": 0.2541636526584625,
-    "away_win_prob": 0.12745301425457,
-    "predicted_winner": "Mexico",
-    "confidence": 0.6183833479881287
+    "match_id": 537348,
+    "home_team": "Paraguay",
+    "away_team": "Australia",
+    "home_win_prob": 0.28542467951774597,
+    "draw_prob": 0.5807619690895081,
+    "away_win_prob": 0.13381335139274597,
+    "predicted_winner": "Paraguay",
+    "confidence": 0.5807619690895081
   },
   {
-    "match_id": 537392,
-    "home_team": "Bosnia and Herzegovina",
-    "away_team": "United States",
-    "home_win_prob": 0.32240551710128784,
-    "draw_prob": 0.43588533997535706,
-    "away_win_prob": 0.24170911312103271,
-    "predicted_winner": "Bosnia and Herzegovina",
-    "confidence": 0.43588533997535706
+    "match_id": 537349,
+    "home_team": "Paraguay",
+    "away_team": "Turkey",
+    "home_win_prob": 0.09561912715435028,
+    "draw_prob": 0.5375956296920776,
+    "away_win_prob": 0.3667852580547333,
+    "predicted_winner": "Turkey",
+    "confidence": 0.5375956296920776
   },
   {
-    "match_id": 537393,
+    "match_id": 537350,
     "home_team": "Australia",
-    "away_team": "Belgium",
-    "home_win_prob": 0.06459921598434448,
-    "draw_prob": 0.10288543999195099,
-    "away_win_prob": 0.8325153589248657,
-    "predicted_winner": "Belgium",
-    "confidence": 0.8325153589248657
+    "away_team": "Turkey",
+    "home_win_prob": 0.04477968439459801,
+    "draw_prob": 0.09912122786045074,
+    "away_win_prob": 0.8560991287231445,
+    "predicted_winner": "Turkey",
+    "confidence": 0.8560991287231445
   },
   {
-    "match_id": 537394,
-    "home_team": "Australia",
-    "away_team": "Iran",
-    "home_win_prob": 0.1840045154094696,
-    "draw_prob": 0.7849359512329102,
-    "away_win_prob": 0.031059550121426582,
-    "predicted_winner": "Australia",
-    "confidence": 0.7849359512329102
+    "match_id": 537351,
+    "home_team": "Germany",
+    "away_team": "Ecuador",
+    "home_win_prob": 0.5790273547172546,
+    "draw_prob": 0.39904507994651794,
+    "away_win_prob": 0.021927550435066223,
+    "predicted_winner": "Germany",
+    "confidence": 0.5790273547172546
   },
   {
-    "match_id": 537395,
-    "home_team": "Australia",
-    "away_team": "Croatia",
-    "home_win_prob": 0.10005097091197968,
-    "draw_prob": 0.17802917957305908,
-    "away_win_prob": 0.7219198942184448,
-    "predicted_winner": "Croatia",
-    "confidence": 0.7219198942184448
+    "match_id": 537352,
+    "home_team": "Germany",
+    "away_team": "Ivory Coast",
+    "home_win_prob": 0.8021391034126282,
+    "draw_prob": 0.1833183765411377,
+    "away_win_prob": 0.014542478136718273,
+    "predicted_winner": "Germany",
+    "confidence": 0.8021391034126282
   },
   {
-    "match_id": 537396,
+    "match_id": 537353,
+    "home_team": "Germany",
+    "away_team": "Cura\u00e7ao",
+    "home_win_prob": 0.6746036410331726,
+    "draw_prob": 0.32072120904922485,
+    "away_win_prob": 0.004675174131989479,
+    "predicted_winner": "Germany",
+    "confidence": 0.6746036410331726
+  },
+  {
+    "match_id": 537354,
+    "home_team": "Ecuador",
+    "away_team": "Ivory Coast",
+    "home_win_prob": 0.19238579273223877,
+    "draw_prob": 0.5826426148414612,
+    "away_win_prob": 0.22497159242630005,
+    "predicted_winner": "Ivory Coast",
+    "confidence": 0.5826426148414612
+  },
+  {
+    "match_id": 537355,
+    "home_team": "Ecuador",
+    "away_team": "Cura\u00e7ao",
+    "home_win_prob": 0.14981350302696228,
+    "draw_prob": 0.8350862264633179,
+    "away_win_prob": 0.015100301243364811,
+    "predicted_winner": "Ecuador",
+    "confidence": 0.8350862264633179
+  },
+  {
+    "match_id": 537356,
+    "home_team": "Ivory Coast",
+    "away_team": "Cura\u00e7ao",
+    "home_win_prob": 0.3126183748245239,
+    "draw_prob": 0.6642903089523315,
+    "away_win_prob": 0.023091357201337814,
+    "predicted_winner": "Ivory Coast",
+    "confidence": 0.6642903089523315
+  },
+  {
+    "match_id": 537357,
+    "home_team": "Netherlands",
+    "away_team": "Japan",
+    "home_win_prob": 0.674375593662262,
+    "draw_prob": 0.3206127882003784,
+    "away_win_prob": 0.005011643283069134,
+    "predicted_winner": "Netherlands",
+    "confidence": 0.674375593662262
+  },
+  {
+    "match_id": 537358,
+    "home_team": "Netherlands",
+    "away_team": "Tunisia",
+    "home_win_prob": 0.7019559741020203,
+    "draw_prob": 0.29345691204071045,
+    "away_win_prob": 0.004587159492075443,
+    "predicted_winner": "Netherlands",
+    "confidence": 0.7019559741020203
+  },
+  {
+    "match_id": 537359,
+    "home_team": "Netherlands",
+    "away_team": "Sweden",
+    "home_win_prob": 0.7195289731025696,
+    "draw_prob": 0.21216510236263275,
+    "away_win_prob": 0.06830587238073349,
+    "predicted_winner": "Netherlands",
+    "confidence": 0.7195289731025696
+  },
+  {
+    "match_id": 537360,
+    "home_team": "Japan",
+    "away_team": "Tunisia",
+    "home_win_prob": 0.015106528997421265,
+    "draw_prob": 0.9691672921180725,
+    "away_win_prob": 0.015726247802376747,
+    "predicted_winner": "Tunisia",
+    "confidence": 0.9691672921180725
+  },
+  {
+    "match_id": 537361,
+    "home_team": "Japan",
+    "away_team": "Sweden",
+    "home_win_prob": 0.01035760436207056,
+    "draw_prob": 0.23520605266094208,
+    "away_win_prob": 0.7544363737106323,
+    "predicted_winner": "Sweden",
+    "confidence": 0.7544363737106323
+  },
+  {
+    "match_id": 537362,
+    "home_team": "Tunisia",
+    "away_team": "Sweden",
+    "home_win_prob": 0.012209134176373482,
+    "draw_prob": 0.27102693915367126,
+    "away_win_prob": 0.7167639136314392,
+    "predicted_winner": "Sweden",
+    "confidence": 0.7167639136314392
+  },
+  {
+    "match_id": 537363,
     "home_team": "Belgium",
     "away_team": "Iran",
     "home_win_prob": 0.6214147806167603,
@@ -700,23 +370,353 @@
     "confidence": 0.6214147806167603
   },
   {
-    "match_id": 537397,
+    "match_id": 537364,
     "home_team": "Belgium",
-    "away_team": "Croatia",
-    "home_win_prob": 0.3689833879470825,
-    "draw_prob": 0.3658149540424347,
-    "away_win_prob": 0.2652016580104828,
+    "away_team": "Egypt",
+    "home_win_prob": 0.651160478591919,
+    "draw_prob": 0.34403008222579956,
+    "away_win_prob": 0.004809442441910505,
     "predicted_winner": "Belgium",
-    "confidence": 0.3689833879470825
+    "confidence": 0.651160478591919
+  },
+  {
+    "match_id": 537365,
+    "home_team": "Belgium",
+    "away_team": "New Zealand",
+    "home_win_prob": 0.7668877840042114,
+    "draw_prob": 0.19784881174564362,
+    "away_win_prob": 0.03526343032717705,
+    "predicted_winner": "Belgium",
+    "confidence": 0.7668877840042114
+  },
+  {
+    "match_id": 537366,
+    "home_team": "Iran",
+    "away_team": "Egypt",
+    "home_win_prob": 0.015106528997421265,
+    "draw_prob": 0.9691672921180725,
+    "away_win_prob": 0.015726247802376747,
+    "predicted_winner": "Egypt",
+    "confidence": 0.9691672921180725
+  },
+  {
+    "match_id": 537367,
+    "home_team": "Iran",
+    "away_team": "New Zealand",
+    "home_win_prob": 0.014968997798860073,
+    "draw_prob": 0.7131815552711487,
+    "away_win_prob": 0.27184945344924927,
+    "predicted_winner": "New Zealand",
+    "confidence": 0.7131815552711487
+  },
+  {
+    "match_id": 537368,
+    "home_team": "Egypt",
+    "away_team": "New Zealand",
+    "home_win_prob": 0.01700553484261036,
+    "draw_prob": 0.7340778112411499,
+    "away_win_prob": 0.2489166408777237,
+    "predicted_winner": "New Zealand",
+    "confidence": 0.7340778112411499
+  },
+  {
+    "match_id": 537369,
+    "home_team": "Spain",
+    "away_team": "Uruguay",
+    "home_win_prob": 0.46078866720199585,
+    "draw_prob": 0.2646024227142334,
+    "away_win_prob": 0.274608850479126,
+    "predicted_winner": "Spain",
+    "confidence": 0.46078866720199585
+  },
+  {
+    "match_id": 537370,
+    "home_team": "Spain",
+    "away_team": "Saudi Arabia",
+    "home_win_prob": 0.8525155186653137,
+    "draw_prob": 0.14459742605686188,
+    "away_win_prob": 0.002887062029913068,
+    "predicted_winner": "Spain",
+    "confidence": 0.8525155186653137
+  },
+  {
+    "match_id": 537371,
+    "home_team": "Spain",
+    "away_team": "Cape Verde",
+    "home_win_prob": 0.5521960854530334,
+    "draw_prob": 0.4401492476463318,
+    "away_win_prob": 0.0076546259224414825,
+    "predicted_winner": "Spain",
+    "confidence": 0.5521960854530334
+  },
+  {
+    "match_id": 537372,
+    "home_team": "Uruguay",
+    "away_team": "Saudi Arabia",
+    "home_win_prob": 0.8173757791519165,
+    "draw_prob": 0.17447005212306976,
+    "away_win_prob": 0.008154168725013733,
+    "predicted_winner": "Uruguay",
+    "confidence": 0.8173757791519165
+  },
+  {
+    "match_id": 537373,
+    "home_team": "Uruguay",
+    "away_team": "Cape Verde",
+    "home_win_prob": 0.42870548367500305,
+    "draw_prob": 0.5489475727081299,
+    "away_win_prob": 0.022346941754221916,
+    "predicted_winner": "Uruguay",
+    "confidence": 0.5489475727081299
+  },
+  {
+    "match_id": 537374,
+    "home_team": "Saudi Arabia",
+    "away_team": "Cape Verde",
+    "home_win_prob": 0.0038280494045466185,
+    "draw_prob": 0.9914690256118774,
+    "away_win_prob": 0.004703007638454437,
+    "predicted_winner": "Cape Verde",
+    "confidence": 0.9914690256118774
+  },
+  {
+    "match_id": 537375,
+    "home_team": "France",
+    "away_team": "Senegal",
+    "home_win_prob": 0.8735336065292358,
+    "draw_prob": 0.03649268299341202,
+    "away_win_prob": 0.08997371047735214,
+    "predicted_winner": "France",
+    "confidence": 0.8735336065292358
+  },
+  {
+    "match_id": 537376,
+    "home_team": "France",
+    "away_team": "Norway",
+    "home_win_prob": 0.9205112457275391,
+    "draw_prob": 0.050821155309677124,
+    "away_win_prob": 0.028667638078331947,
+    "predicted_winner": "France",
+    "confidence": 0.9205112457275391
+  },
+  {
+    "match_id": 537377,
+    "home_team": "France",
+    "away_team": "Iraq",
+    "home_win_prob": 0.9510548114776611,
+    "draw_prob": 0.042901188135147095,
+    "away_win_prob": 0.0060439808294177055,
+    "predicted_winner": "France",
+    "confidence": 0.9510548114776611
+  },
+  {
+    "match_id": 537378,
+    "home_team": "Senegal",
+    "away_team": "Norway",
+    "home_win_prob": 0.45717963576316833,
+    "draw_prob": 0.24689628183841705,
+    "away_win_prob": 0.2959240674972534,
+    "predicted_winner": "Senegal",
+    "confidence": 0.45717963576316833
+  },
+  {
+    "match_id": 537379,
+    "home_team": "Senegal",
+    "away_team": "Iraq",
+    "home_win_prob": 0.5160717368125916,
+    "draw_prob": 0.4601917266845703,
+    "away_win_prob": 0.023736556991934776,
+    "predicted_winner": "Senegal",
+    "confidence": 0.5160717368125916
+  },
+  {
+    "match_id": 537380,
+    "home_team": "Norway",
+    "away_team": "Iraq",
+    "home_win_prob": 0.14981350302696228,
+    "draw_prob": 0.8350862264633179,
+    "away_win_prob": 0.015100301243364811,
+    "predicted_winner": "Norway",
+    "confidence": 0.8350862264633179
+  },
+  {
+    "match_id": 537381,
+    "home_team": "Argentina",
+    "away_team": "Austria",
+    "home_win_prob": 0.9564420580863953,
+    "draw_prob": 0.027131207287311554,
+    "away_win_prob": 0.01642674021422863,
+    "predicted_winner": "Argentina",
+    "confidence": 0.9564420580863953
+  },
+  {
+    "match_id": 537382,
+    "home_team": "Argentina",
+    "away_team": "Algeria",
+    "home_win_prob": 0.9776520133018494,
+    "draw_prob": 0.013576654717326164,
+    "away_win_prob": 0.008771399036049843,
+    "predicted_winner": "Argentina",
+    "confidence": 0.9776520133018494
+  },
+  {
+    "match_id": 537383,
+    "home_team": "Argentina",
+    "away_team": "Jordan",
+    "home_win_prob": 0.9510548114776611,
+    "draw_prob": 0.042901188135147095,
+    "away_win_prob": 0.0060439808294177055,
+    "predicted_winner": "Argentina",
+    "confidence": 0.9510548114776611
+  },
+  {
+    "match_id": 537384,
+    "home_team": "Austria",
+    "away_team": "Algeria",
+    "home_win_prob": 0.32435178756713867,
+    "draw_prob": 0.4324800670146942,
+    "away_win_prob": 0.2431682050228119,
+    "predicted_winner": "Austria",
+    "confidence": 0.4324800670146942
+  },
+  {
+    "match_id": 537385,
+    "home_team": "Austria",
+    "away_team": "Jordan",
+    "home_win_prob": 0.3155035078525543,
+    "draw_prob": 0.661191999912262,
+    "away_win_prob": 0.023304464295506477,
+    "predicted_winner": "Austria",
+    "confidence": 0.661191999912262
+  },
+  {
+    "match_id": 537386,
+    "home_team": "Algeria",
+    "away_team": "Jordan",
+    "home_win_prob": 0.1840045154094696,
+    "draw_prob": 0.7849359512329102,
+    "away_win_prob": 0.031059550121426582,
+    "predicted_winner": "Algeria",
+    "confidence": 0.7849359512329102
+  },
+  {
+    "match_id": 537387,
+    "home_team": "Portugal",
+    "away_team": "Colombia",
+    "home_win_prob": 0.3906240165233612,
+    "draw_prob": 0.3693462610244751,
+    "away_win_prob": 0.24002967774868011,
+    "predicted_winner": "Portugal",
+    "confidence": 0.3906240165233612
+  },
+  {
+    "match_id": 537388,
+    "home_team": "Portugal",
+    "away_team": "Uzbekistan",
+    "home_win_prob": 0.42870548367500305,
+    "draw_prob": 0.5489475727081299,
+    "away_win_prob": 0.022346941754221916,
+    "predicted_winner": "Portugal",
+    "confidence": 0.5489475727081299
+  },
+  {
+    "match_id": 537389,
+    "home_team": "Portugal",
+    "away_team": "DR Congo",
+    "home_win_prob": 0.6203393340110779,
+    "draw_prob": 0.2546761929988861,
+    "away_win_prob": 0.12498445063829422,
+    "predicted_winner": "Portugal",
+    "confidence": 0.6203393340110779
+  },
+  {
+    "match_id": 537390,
+    "home_team": "Colombia",
+    "away_team": "Uzbekistan",
+    "home_win_prob": 0.15004339814186096,
+    "draw_prob": 0.836367666721344,
+    "away_win_prob": 0.013588928617537022,
+    "predicted_winner": "Colombia",
+    "confidence": 0.836367666721344
+  },
+  {
+    "match_id": 537391,
+    "home_team": "Colombia",
+    "away_team": "DR Congo",
+    "home_win_prob": 0.28713521361351013,
+    "draw_prob": 0.5842424631118774,
+    "away_win_prob": 0.12862230837345123,
+    "predicted_winner": "Colombia",
+    "confidence": 0.5842424631118774
+  },
+  {
+    "match_id": 537392,
+    "home_team": "Uzbekistan",
+    "away_team": "DR Congo",
+    "home_win_prob": 0.02023852802813053,
+    "draw_prob": 0.8067395091056824,
+    "away_win_prob": 0.17302197217941284,
+    "predicted_winner": "DR Congo",
+    "confidence": 0.8067395091056824
+  },
+  {
+    "match_id": 537393,
+    "home_team": "England",
+    "away_team": "Croatia",
+    "home_win_prob": 0.3687122166156769,
+    "draw_prob": 0.356771320104599,
+    "away_win_prob": 0.27451643347740173,
+    "predicted_winner": "England",
+    "confidence": 0.3687122166156769
+  },
+  {
+    "match_id": 537394,
+    "home_team": "England",
+    "away_team": "Ghana",
+    "home_win_prob": 0.7589437961578369,
+    "draw_prob": 0.19868752360343933,
+    "away_win_prob": 0.04236868768930435,
+    "predicted_winner": "England",
+    "confidence": 0.7589437961578369
+  },
+  {
+    "match_id": 537395,
+    "home_team": "England",
+    "away_team": "Panama",
+    "home_win_prob": 0.8383256196975708,
+    "draw_prob": 0.1428416520357132,
+    "away_win_prob": 0.018832780420780182,
+    "predicted_winner": "England",
+    "confidence": 0.8383256196975708
+  },
+  {
+    "match_id": 537396,
+    "home_team": "Croatia",
+    "away_team": "Ghana",
+    "home_win_prob": 0.8883175253868103,
+    "draw_prob": 0.05263744294643402,
+    "away_win_prob": 0.05904507264494896,
+    "predicted_winner": "Croatia",
+    "confidence": 0.8883175253868103
+  },
+  {
+    "match_id": 537397,
+    "home_team": "Croatia",
+    "away_team": "Panama",
+    "home_win_prob": 0.9349032044410706,
+    "draw_prob": 0.03605574369430542,
+    "away_win_prob": 0.02904103696346283,
+    "predicted_winner": "Croatia",
+    "confidence": 0.9349032044410706
   },
   {
     "match_id": 537398,
-    "home_team": "Iran",
-    "away_team": "Croatia",
-    "home_win_prob": 0.007294971030205488,
-    "draw_prob": 0.16892997920513153,
-    "away_win_prob": 0.8237749934196472,
-    "predicted_winner": "Croatia",
-    "confidence": 0.8237749934196472
+    "home_team": "Ghana",
+    "away_team": "Panama",
+    "home_win_prob": 0.32240551710128784,
+    "draw_prob": 0.43588533997535706,
+    "away_win_prob": 0.24170911312103271,
+    "predicted_winner": "Ghana",
+    "confidence": 0.43588533997535706
   }
 ]

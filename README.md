@@ -126,6 +126,29 @@ npm run dev
 | `GET /api/predictions/tournament` | Tournament simulation (champion probabilities) |
 | `GET /api/groups` | Group standings with 48 teams |
 
+## Update After a Match
+
+After a 2026 World Cup game is played, update Elo ratings and regenerate predictions:
+
+```bash
+# 1. Update Elo ratings with the actual result
+#    (manually add the result to predict.py or fetch via football-data.org)
+python pipeline/feature_engineering/elo.py
+
+# 2. Regenerate predictions for remaining matches
+python pipeline/prediction/predict.py
+
+# 3. Deploy updated files to the running Docker container
+docker cp artifacts/groups.json worldcup-api:/app/artifacts/groups.json
+docker cp artifacts/predictions/2026_predictions_xgboost_v1_tuned.json worldcup-api:/app/artifacts/predictions/
+docker cp artifacts/predictions/tournament_simulation_xgboost_v1_tuned.json worldcup-api:/app/artifacts/predictions/
+docker compose restart backend
+```
+
+The backend and frontend reload the JSON files after restart — no image rebuild needed.
+
+> **Note**: `elo.py` currently reads historical World Cup matches (1930–2022) only. To propagate a 2026 result into Elo ratings, manually append the match to `pipeline/data/raw/historical_matches.parquet` before running the steps above, or inject it via the `football-data.org` API fetch in `fetch_data.py`.
+
 ## Data Sources
 
 - **Match data**: [football-data.org](https://www.football-data.org/) API (historical matches 1872–present)
@@ -141,3 +164,7 @@ docker compose up -d --build
 # Stop and clean
 docker compose down -v
 ```
+
+## Known Issues
+
+- **`rsa` crate (RUSTSEC-2023-0071)**: Transitive dependency via `sqlx-mysql`, an **unused optional feature** (we use PostgreSQL only). Not compiled, not exploitable. CI uses `cargo audit --vulnerable-path` which only scans the compiled dependency tree, so this advisory is automatically skipped.

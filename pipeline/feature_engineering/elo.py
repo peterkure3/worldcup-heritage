@@ -66,12 +66,8 @@ def compute_elo(hist: pd.DataFrame) -> pd.DataFrame:
 
 
 TEAM_NAME_MAP = {
-    "Bosnia-Herzegovina": "Bosnia and Herzegovina",
-    "Cape Verde Islands": "Cape Verde",
-    "Congo DR": "Zaire",
+    "DR Congo": "Zaire",
     "Curaçao": "Curacao",
-    "Czechia": "Czech Republic",
-    "Democratic Republic of the Congo": "Zaire",
 }
 
 

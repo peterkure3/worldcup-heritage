@@ -1,123 +1,9 @@
 {
-  "South Africa": {
-    "form_gf": 1.04,
-    "form_ga": 1.79,
-    "form_pts": 0.84,
-    "elo": 1484.1
-  },
-  "Brazil": {
-    "form_gf": 2.31,
-    "form_ga": 0.84,
-    "form_pts": 2.11,
-    "elo": 1653.0
-  },
-  "Scotland": {
-    "form_gf": 0.75,
-    "form_ga": 2.01,
-    "form_pts": 0.55,
-    "elo": 1445.5
-  },
-  "Turkey": {
-    "form_gf": 1.57,
-    "form_ga": 1.4,
-    "form_pts": 1.37,
-    "elo": 1554.0
-  },
-  "Ivory Coast": {
-    "form_gf": 1.09,
-    "form_ga": 1.76,
-    "form_pts": 0.89,
-    "elo": 1490.5
-  },
-  "Netherlands": {
-    "form_gf": 2.36,
-    "form_ga": 0.8,
-    "form_pts": 2.16,
-    "elo": 1659.3
-  },
-  "Cape Verde": {
-    "form_gf": 0.74,
-    "form_ga": 2.02,
-    "form_pts": 0.54,
-    "elo": 1443.6
-  },
-  "France": {
-    "form_gf": 2.48,
-    "form_ga": 0.72,
-    "form_pts": 2.28,
-    "elo": 1674.8
-  },
-  "Tunisia": {
-    "form_gf": 0.75,
-    "form_ga": 2.01,
-    "form_pts": 0.55,
-    "elo": 1445.3
-  },
-  "Egypt": {
-    "form_gf": 0.76,
-    "form_ga": 2.01,
-    "form_pts": 0.56,
-    "elo": 1446.3
-  },
-  "Iraq": {
-    "form_gf": 0.74,
-    "form_ga": 2.02,
-    "form_pts": 0.54,
-    "elo": 1443.5
-  },
-  "Portugal": {
-    "form_gf": 1.5,
-    "form_ga": 1.45,
-    "form_pts": 1.3,
-    "elo": 1544.5
-  },
-  "Uzbekistan": {
-    "form_gf": 0.74,
-    "form_ga": 2.02,
-    "form_pts": 0.54,
-    "elo": 1443.6
-  },
-  "Colombia": {
-    "form_gf": 1.29,
-    "form_ga": 1.61,
-    "form_pts": 1.09,
-    "elo": 1516.7
-  },
-  "Ecuador": {
-    "form_gf": 1.31,
-    "form_ga": 1.59,
-    "form_pts": 1.11,
-    "elo": 1520.0
-  },
-  "Japan": {
-    "form_gf": 0.73,
-    "form_ga": 2.03,
-    "form_pts": 0.53,
-    "elo": 1442.6
-  },
-  "New Zealand": {
-    "form_gf": 1.06,
-    "form_ga": 1.78,
-    "form_pts": 0.86,
-    "elo": 1485.6
-  },
-  "Saudi Arabia": {
-    "form_gf": 0.51,
-    "form_ga": 2.19,
-    "form_pts": 0.31,
-    "elo": 1412.9
-  },
-  "Austria": {
-    "form_gf": 1.17,
-    "form_ga": 1.69,
-    "form_pts": 0.97,
-    "elo": 1501.5
-  },
-  "Ghana": {
-    "form_gf": 1.04,
-    "form_ga": 1.8,
-    "form_pts": 0.84,
-    "elo": 1483.4
+  "Mexico": {
+    "form_gf": 1.41,
+    "form_ga": 1.51,
+    "form_pts": 1.21,
+    "elo": 1533.4
   },
   "South Korea": {
     "form_gf": 0.64,
@@ -125,35 +11,11 @@
     "form_pts": 0.44,
     "elo": 1430.4
   },
-  "Spain": {
-    "form_gf": 1.59,
-    "form_ga": 1.38,
-    "form_pts": 1.39,
-    "elo": 1556.2
-  },
-  "Norway": {
-    "form_gf": 1.34,
-    "form_ga": 1.57,
-    "form_pts": 1.14,
-    "elo": 1523.6
-  },
-  "Argentina": {
-    "form_gf": 2.48,
-    "form_ga": 0.71,
-    "form_pts": 2.28,
-    "elo": 1675.4
-  },
-  "Democratic Republic of the Congo": {
-    "form_gf": 0.83,
-    "form_ga": 1.96,
-    "form_pts": 0.63,
-    "elo": 1455.1
-  },
-  "England": {
-    "form_gf": 1.72,
-    "form_ga": 1.28,
-    "form_pts": 1.52,
-    "elo": 1574.0
+  "South Africa": {
+    "form_gf": 1.04,
+    "form_ga": 1.79,
+    "form_pts": 0.84,
+    "elo": 1484.1
   },
   "Czech Republic": {
     "form_gf": 1.01,
@@ -167,89 +29,17 @@
     "form_pts": 0.42,
     "elo": 1428.3
   },
-  "Qatar": {
-    "form_gf": 0.83,
-    "form_ga": 1.95,
-    "form_pts": 0.63,
-    "elo": 1456.3
-  },
   "Switzerland": {
     "form_gf": 1.26,
     "form_ga": 1.63,
     "form_pts": 1.06,
     "elo": 1513.4
   },
-  "Morocco": {
-    "form_gf": 1.27,
-    "form_ga": 1.62,
-    "form_pts": 1.07,
-    "elo": 1514.0
-  },
-  "Paraguay": {
-    "form_gf": 1.23,
-    "form_ga": 1.65,
-    "form_pts": 1.03,
-    "elo": 1508.4
-  },
-  "Cura\u00c3\u00a7ao": {
-    "form_gf": 0.74,
-    "form_ga": 2.02,
-    "form_pts": 0.54,
-    "elo": 1443.6
-  },
-  "Sweden": {
-    "form_gf": 1.42,
-    "form_ga": 1.51,
-    "form_pts": 1.22,
-    "elo": 1534.0
-  },
-  "Algeria": {
-    "form_gf": 0.85,
-    "form_ga": 1.93,
-    "form_pts": 0.65,
-    "elo": 1458.8
-  },
-  "Jordan": {
-    "form_gf": 0.74,
-    "form_ga": 2.02,
-    "form_pts": 0.54,
-    "elo": 1443.6
-  },
-  "Haiti": {
-    "form_gf": 0.86,
-    "form_ga": 1.93,
-    "form_pts": 0.66,
-    "elo": 1460.3
-  },
-  "Germany": {
-    "form_gf": 2.27,
-    "form_ga": 0.87,
-    "form_pts": 2.07,
-    "elo": 1647.2
-  },
-  "Uruguay": {
-    "form_gf": 1.52,
-    "form_ga": 1.44,
-    "form_pts": 1.32,
-    "elo": 1547.2
-  },
-  "Senegal": {
-    "form_gf": 1.47,
-    "form_ga": 1.47,
-    "form_pts": 1.27,
-    "elo": 1540.5
-  },
-  "Panama": {
-    "form_gf": 0.84,
-    "form_ga": 1.94,
-    "form_pts": 0.64,
-    "elo": 1457.5
-  },
-  "Mexico": {
-    "form_gf": 1.41,
-    "form_ga": 1.51,
-    "form_pts": 1.21,
-    "elo": 1533.4
+  "Qatar": {
+    "form_gf": 0.83,
+    "form_ga": 1.95,
+    "form_pts": 0.63,
+    "elo": 1456.3
   },
   "Bosnia and Herzegovina": {
     "form_gf": 1.09,
@@ -257,17 +47,101 @@
     "form_pts": 0.89,
     "elo": 1489.7
   },
+  "Brazil": {
+    "form_gf": 2.31,
+    "form_ga": 0.84,
+    "form_pts": 2.11,
+    "elo": 1653.0
+  },
+  "Morocco": {
+    "form_gf": 1.27,
+    "form_ga": 1.62,
+    "form_pts": 1.07,
+    "elo": 1514.0
+  },
+  "Scotland": {
+    "form_gf": 0.75,
+    "form_ga": 2.01,
+    "form_pts": 0.55,
+    "elo": 1445.5
+  },
+  "Haiti": {
+    "form_gf": 0.86,
+    "form_ga": 1.93,
+    "form_pts": 0.66,
+    "elo": 1460.3
+  },
   "United States": {
     "form_gf": 0.82,
     "form_ga": 1.96,
     "form_pts": 0.62,
     "elo": 1454.7
   },
+  "Paraguay": {
+    "form_gf": 1.23,
+    "form_ga": 1.65,
+    "form_pts": 1.03,
+    "elo": 1508.4
+  },
   "Australia": {
     "form_gf": 0.85,
     "form_ga": 1.94,
     "form_pts": 0.65,
     "elo": 1458.2
+  },
+  "Turkey": {
+    "form_gf": 1.57,
+    "form_ga": 1.4,
+    "form_pts": 1.37,
+    "elo": 1554.0
+  },
+  "Germany": {
+    "form_gf": 2.27,
+    "form_ga": 0.87,
+    "form_pts": 2.07,
+    "elo": 1647.2
+  },
+  "Ecuador": {
+    "form_gf": 1.31,
+    "form_ga": 1.59,
+    "form_pts": 1.11,
+    "elo": 1520.0
+  },
+  "Ivory Coast": {
+    "form_gf": 1.09,
+    "form_ga": 1.76,
+    "form_pts": 0.89,
+    "elo": 1490.5
+  },
+  "Cura\u00e7ao": {
+    "form_gf": 0.74,
+    "form_ga": 2.02,
+    "form_pts": 0.54,
+    "elo": 1443.6
+  },
+  "Netherlands": {
+    "form_gf": 2.36,
+    "form_ga": 0.8,
+    "form_pts": 2.16,
+    "elo": 1659.3
+  },
+  "Japan": {
+    "form_gf": 0.73,
+    "form_ga": 2.03,
+    "form_pts": 0.53,
+    "elo": 1442.6
+  },
+  "Tunisia": {
+    "form_gf": 0.75,
+    "form_ga": 2.01,
+    "form_pts": 0.55,
+    "elo": 1445.3
+  },
+  "Sweden": {
+    "form_gf": 1.42,
+    "form_ga": 1.51,
+    "form_pts": 1.22,
+    "elo": 1534.0
   },
   "Belgium": {
     "form_gf": 1.78,
@@ -281,10 +155,136 @@
     "form_pts": 0.52,
     "elo": 1440.4
   },
+  "Egypt": {
+    "form_gf": 0.76,
+    "form_ga": 2.01,
+    "form_pts": 0.56,
+    "elo": 1446.3
+  },
+  "New Zealand": {
+    "form_gf": 1.06,
+    "form_ga": 1.78,
+    "form_pts": 0.86,
+    "elo": 1485.6
+  },
+  "Spain": {
+    "form_gf": 1.59,
+    "form_ga": 1.38,
+    "form_pts": 1.39,
+    "elo": 1556.2
+  },
+  "Uruguay": {
+    "form_gf": 1.52,
+    "form_ga": 1.44,
+    "form_pts": 1.32,
+    "elo": 1547.2
+  },
+  "Saudi Arabia": {
+    "form_gf": 0.51,
+    "form_ga": 2.19,
+    "form_pts": 0.31,
+    "elo": 1412.9
+  },
+  "Cape Verde": {
+    "form_gf": 0.74,
+    "form_ga": 2.02,
+    "form_pts": 0.54,
+    "elo": 1443.6
+  },
+  "France": {
+    "form_gf": 2.48,
+    "form_ga": 0.72,
+    "form_pts": 2.28,
+    "elo": 1674.8
+  },
+  "Senegal": {
+    "form_gf": 1.47,
+    "form_ga": 1.47,
+    "form_pts": 1.27,
+    "elo": 1540.5
+  },
+  "Norway": {
+    "form_gf": 1.34,
+    "form_ga": 1.57,
+    "form_pts": 1.14,
+    "elo": 1523.6
+  },
+  "Iraq": {
+    "form_gf": 0.74,
+    "form_ga": 2.02,
+    "form_pts": 0.54,
+    "elo": 1443.5
+  },
+  "Argentina": {
+    "form_gf": 2.48,
+    "form_ga": 0.71,
+    "form_pts": 2.28,
+    "elo": 1675.4
+  },
+  "Austria": {
+    "form_gf": 1.17,
+    "form_ga": 1.69,
+    "form_pts": 0.97,
+    "elo": 1501.5
+  },
+  "Algeria": {
+    "form_gf": 0.85,
+    "form_ga": 1.93,
+    "form_pts": 0.65,
+    "elo": 1458.8
+  },
+  "Jordan": {
+    "form_gf": 0.74,
+    "form_ga": 2.02,
+    "form_pts": 0.54,
+    "elo": 1443.6
+  },
+  "Portugal": {
+    "form_gf": 1.5,
+    "form_ga": 1.45,
+    "form_pts": 1.3,
+    "elo": 1544.5
+  },
+  "Colombia": {
+    "form_gf": 1.29,
+    "form_ga": 1.61,
+    "form_pts": 1.09,
+    "elo": 1516.7
+  },
+  "Uzbekistan": {
+    "form_gf": 0.74,
+    "form_ga": 2.02,
+    "form_pts": 0.54,
+    "elo": 1443.6
+  },
+  "DR Congo": {
+    "form_gf": 0.83,
+    "form_ga": 1.96,
+    "form_pts": 0.63,
+    "elo": 1455.1
+  },
+  "England": {
+    "form_gf": 1.72,
+    "form_ga": 1.28,
+    "form_pts": 1.52,
+    "elo": 1574.0
+  },
   "Croatia": {
     "form_gf": 2.18,
     "form_ga": 0.94,
     "form_pts": 1.98,
     "elo": 1634.6
+  },
+  "Ghana": {
+    "form_gf": 1.04,
+    "form_ga": 1.8,
+    "form_pts": 0.84,
+    "elo": 1483.4
+  },
+  "Panama": {
+    "form_gf": 0.84,
+    "form_ga": 1.94,
+    "form_pts": 0.64,
+    "elo": 1457.5
   }
 }

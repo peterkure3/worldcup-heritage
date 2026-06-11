@@ -35,7 +35,10 @@ jobs:
         run: cargo install cargo-audit --locked
 
       - name: Check for vulnerabilities
-        run: cargo audit
+        # --vulnerable-path only audits crates in the compiled dep tree,
+        # skipping lock-file-only entries (e.g. sqlx-mysql → rsa which
+        # is behind an unused optional feature).
+        run: cargo audit --vulnerable-path
 
       - name: Build
         run: cargo build --release
