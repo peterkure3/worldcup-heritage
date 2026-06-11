@@ -1,8 +1,9 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { KnockoutBracket } from '../components/KnockoutBracket';
 import { ChampionBar } from '../components/ChampionBar';
 import { SkeletonBracket, SkeletonChampionBar, StaggerIn } from '../components/Skeletons';
 import { api } from '../api/client';
+import { usePoll } from '../api/usePoll';
 import type { MatchPrediction, TeamProbability } from '../api/types';
 
 const GROUPS = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L'];
@@ -13,7 +14,7 @@ export function KnockoutPage() {
   const [teamGroups, setTeamGroups] = useState<Record<string, string>>({});
   const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
+  const fetchData = useCallback(() => {
     Promise.all([
       api.predictions(),
       api.tournamentPrediction().catch(() => null),
@@ -39,6 +40,9 @@ export function KnockoutPage() {
       setLoading(false);
     });
   }, []);
+
+  useEffect(() => { fetchData(); }, [fetchData]);
+  usePoll(fetchData, 60_000, !loading);
 
   return (
     <div className="knockout-page">

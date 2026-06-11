@@ -16,14 +16,14 @@
           "flag_png": "https://flagcdn.com/w80/mx.png",
           "fifa_code": "MEX",
           "iso2": "mx",
-          "played": 0,
-          "won": 0,
+          "played": 1,
+          "won": 1,
           "drawn": 0,
           "lost": 0,
-          "goals_for": 0,
+          "goals_for": 2,
           "goals_against": 0,
-          "goal_diff": 0,
-          "points": 0
+          "goal_diff": 2,
+          "points": 3
         },
         {
           "team_id": 2,
@@ -32,22 +32,6 @@
           "flag_png": "https://flagcdn.com/w80/kr.png",
           "fifa_code": "KOR",
           "iso2": "kr",
-          "played": 0,
-          "won": 0,
-          "drawn": 0,
-          "lost": 0,
-          "goals_for": 0,
-          "goals_against": 0,
-          "goal_diff": 0,
-          "points": 0
-        },
-        {
-          "team_id": 3,
-          "team_name": "South Africa",
-          "flag_svg": "/flags/za.svg",
-          "flag_png": "https://flagcdn.com/w80/za.png",
-          "fifa_code": "RSA",
-          "iso2": "za",
           "played": 0,
           "won": 0,
           "drawn": 0,
@@ -71,6 +55,22 @@
           "goals_for": 0,
           "goals_against": 0,
           "goal_diff": 0,
+          "points": 0
+        },
+        {
+          "team_id": 3,
+          "team_name": "South Africa",
+          "flag_svg": "/flags/za.svg",
+          "flag_png": "https://flagcdn.com/w80/za.png",
+          "fifa_code": "RSA",
+          "iso2": "za",
+          "played": 1,
+          "won": 0,
+          "drawn": 0,
+          "lost": 1,
+          "goals_for": 0,
+          "goals_against": 2,
+          "goal_diff": -2,
           "points": 0
         }
       ]
