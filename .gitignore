@@ -1,0 +1,28 @@
+# Env
+.env
+.env.local
+
+# Python
+__pycache__/
+*.pyc
+pipeline/.venv/
+
+# Data (raw is regenerable)
+pipeline/data/
+
+# Models (binary, large, regenerable)
+artifacts/models/
+
+# Track artifact JSON outputs (predictions, groups, simulation)
+!artifacts/*.json
+!artifacts/predictions/*.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
