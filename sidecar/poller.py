@@ -19,6 +19,13 @@ BACKEND_RELOAD_URL = os.environ.get(
 )
 POLL_INTERVAL = int(os.environ.get("POLL_INTERVAL", "300"))
 
+TEAM_NAME_MAP = {
+    "Bosnia-Herzegovina": "Bosnia and Herzegovina",
+    "Cape Verde Islands": "Cape Verde",
+    "Congo DR": "DR Congo",
+    "Czechia": "Czech Republic",
+}
+
 
 def fetch_matches() -> dict:
     headers = {"X-Auth-Token": API_KEY}
@@ -29,6 +36,10 @@ def fetch_matches() -> dict:
     )
     resp.raise_for_status()
     return resp.json()
+
+
+def normalize_name(name: str) -> str:
+    return TEAM_NAME_MAP.get(name, name)
 
 
 def normalize_matches(api_data: dict) -> list[dict]:
@@ -43,9 +54,9 @@ def normalize_matches(api_data: dict) -> list[dict]:
             "stage": m["stage"],
             "group_name": group.removeprefix("GROUP_") if group else None,
             "matchday": m.get("matchday"),
-            "home_team": m["homeTeam"]["name"],
+            "home_team": normalize_name(m["homeTeam"]["name"]),
             "home_team_tla": m["homeTeam"]["tla"],
-            "away_team": m["awayTeam"]["name"],
+            "away_team": normalize_name(m["awayTeam"]["name"]),
             "away_team_tla": m["awayTeam"]["tla"],
             "home_score": m["score"]["fullTime"]["home"],
             "away_score": m["score"]["fullTime"]["away"],

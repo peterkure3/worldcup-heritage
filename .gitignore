@@ -17,6 +17,10 @@ artifacts/models/
 !artifacts/*.json
 !artifacts/predictions/*.json
 
+# Poller-generated live data (ephemeral API responses)
+/artifacts/2026_matches.json
+/artifacts/2026_matches_raw.json
+
 # IDE
 .vscode/
 .idea/

@@ -46,7 +46,7 @@ fn normalize_name(name: &str) -> &str {
     match name {
         "Bosnia-Herzegovina" => "Bosnia and Herzegovina",
         "Cape Verde Islands" => "Cape Verde",
-        "Congo DR" => "Democratic Republic of the Congo",
+        "Congo DR" => "DR Congo",
         "Czechia" => "Czech Republic",
         n if n.starts_with("Cura") => "Curaçao",
         n => n,
