@@ -35,8 +35,8 @@ jobs:
         run: cargo install cargo-audit --locked
 
       - name: Check for vulnerabilities
-        # --vulnerable-path only audits crates in the compiled dep tree,
-        run: cargo audit
+        # rsa is a false positive via unused sqlx-mysql optional feature
+        run: cargo audit --ignore RUSTSEC-2023-0071
 
       - name: Build
         run: cargo build --release
