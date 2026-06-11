@@ -30,6 +30,8 @@ services:
       DATABASE_URL: postgres://worldcup:worldcup@postgres:5432/worldcup
       HOST: 0.0.0.0
       PORT: "7777"
+    volumes:
+      - ./artifacts:/app/artifacts
     depends_on:
       postgres:
         condition: service_healthy
@@ -45,6 +47,23 @@ services:
       - "80:80"
     depends_on:
       - backend
+    networks:
+      - worldcup-net
+
+  poller:
+    build:
+      context: sidecar
+      dockerfile: Dockerfile
+    container_name: worldcup-poller
+    environment:
+      FOOTBALL_DATA_API_KEY: ${FOOTBALL_DATA_API_KEY:-}
+      POLL_INTERVAL: "300"
+      BACKEND_RELOAD_URL: http://backend:7777/api/reload
+    volumes:
+      - ./artifacts:/app/artifacts
+    depends_on:
+      - backend
+    restart: unless-stopped
     networks:
       - worldcup-net
 

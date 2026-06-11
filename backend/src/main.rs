@@ -147,6 +147,7 @@ async fn main() -> std::io::Result<()> {
             .service(routes::predictions::get_match_prediction)
             .service(routes::predictions::get_tournament_prediction)
             .service(routes::groups::get_groups)
+            .service(routes::reload::reload)
     })
     .bind((host.as_str(), port))?
     .run()
