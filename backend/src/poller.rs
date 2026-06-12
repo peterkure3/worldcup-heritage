@@ -44,8 +44,8 @@ struct ApiMatch {
 
 #[derive(Deserialize, Debug)]
 struct ApiTeam {
-    name: String,
-    tla: String,
+    name: Option<String>,
+    tla: Option<String>,
 }
 
 #[derive(Deserialize, Debug)]
@@ -179,11 +179,11 @@ fn normalize_matches(api_matches: &[ApiMatch]) -> Vec<Match> {
         .iter()
         .map(|m| {
             let group = m.group.as_deref().unwrap_or("");
-            let home_name = normalize_name(&m.home_team.name);
-            let away_name = normalize_name(&m.away_team.name);
+            let home_name = m.home_team.name.as_deref().map(normalize_name);
+            let away_name = m.away_team.name.as_deref().map(normalize_name);
             let winner = m.score.winner.as_deref().and_then(|w| match w {
-                "HOME_TEAM" => Some(home_name.to_string()),
-                "AWAY_TEAM" => Some(away_name.to_string()),
+                "HOME_TEAM" => home_name.map(|n| n.to_string()),
+                "AWAY_TEAM" => away_name.map(|n| n.to_string()),
                 _ => None,
             });
             Match {
@@ -195,9 +195,9 @@ fn normalize_matches(api_matches: &[ApiMatch]) -> Vec<Match> {
                 group_name: Some(group.strip_prefix("GROUP_").unwrap_or(group).to_string())
                     .filter(|s| !s.is_empty()),
                 matchday: m.matchday,
-                home_team: home_name.to_string(),
+                home_team: home_name.map(|n| n.to_string()),
                 home_team_tla: m.home_team.tla.clone(),
-                away_team: away_name.to_string(),
+                away_team: away_name.map(|n| n.to_string()),
                 away_team_tla: m.away_team.tla.clone(),
                 home_score: m.score.full_time.home,
                 away_score: m.score.full_time.away,
@@ -230,6 +230,9 @@ fn update_standings(matches: &[Match], groups_data: &mut GroupsData) {
         let (Some(hg), Some(ag)) = (m.home_score, m.away_score) else {
             continue;
         };
+        let (Some(home_team), Some(away_team)) = (m.home_team.as_deref(), m.away_team.as_deref()) else {
+            continue;
+        };
         let gname = match &m.group_name {
             Some(n) => n.as_str(),
             None => continue,
@@ -238,8 +241,8 @@ fn update_standings(matches: &[Match], groups_data: &mut GroupsData) {
             continue;
         };
 
-        let home_idx = standings.iter().position(|s| s.team_name == m.home_team);
-        let away_idx = standings.iter().position(|s| s.team_name == m.away_team);
+        let home_idx = standings.iter().position(|s| s.team_name == home_team);
+        let away_idx = standings.iter().position(|s| s.team_name == away_team);
         let (Some(hi), Some(ai)) = (home_idx, away_idx) else {
             continue;
         };
@@ -307,11 +310,14 @@ async fn persist_matches(pool: &PgPool, matches: &[Match]) {
         .collect();
 
     for m in &finished {
+        let (Some(home_team), Some(away_team)) = (m.home_team.as_ref(), m.away_team.as_ref()) else {
+            continue;
+        };
         let (Some(home_id), Some(away_id)) = (
-            team_map.get(&m.home_team).copied(),
-            team_map.get(&m.away_team).copied(),
+            team_map.get(home_team).copied(),
+            team_map.get(away_team).copied(),
         ) else {
-            tracing::warn!("poller db: unknown team '{}' or '{}'", m.home_team, m.away_team);
+            tracing::warn!("poller db: unknown team '{home_team}' or '{away_team}'");
             continue;
         };
 
@@ -353,7 +359,7 @@ async fn persist_matches(pool: &PgPool, matches: &[Match]) {
                 .execute(pool)
                 .await;
             }
-            Err(e) => tracing::warn!("poller db: update error for {} vs {}: {e}", m.home_team, m.away_team),
+            Err(e) => tracing::warn!("poller db: update error for {home_team} vs {away_team}: {e}"),
             _ => {}
         }
     }

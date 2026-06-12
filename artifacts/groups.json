@@ -32,14 +32,14 @@
           "flag_png": "https://flagcdn.com/w80/kr.png",
           "fifa_code": "KOR",
           "iso2": "kr",
-          "played": 0,
-          "won": 0,
+          "played": 1,
+          "won": 1,
           "drawn": 0,
           "lost": 0,
-          "goals_for": 0,
-          "goals_against": 0,
-          "goal_diff": 0,
-          "points": 0
+          "goals_for": 2,
+          "goals_against": 1,
+          "goal_diff": 1,
+          "points": 3
         },
         {
           "team_id": 4,
@@ -48,13 +48,13 @@
           "flag_png": "https://flagcdn.com/w80/cz.png",
           "fifa_code": "CZE",
           "iso2": "cz",
-          "played": 0,
+          "played": 1,
           "won": 0,
           "drawn": 0,
-          "lost": 0,
-          "goals_for": 0,
-          "goals_against": 0,
-          "goal_diff": 0,
+          "lost": 1,
+          "goals_for": 1,
+          "goals_against": 2,
+          "goal_diff": -1,
           "points": 0
         },
         {
@@ -306,7 +306,7 @@
         "Germany",
         "Ecuador",
         "Ivory Coast",
-        "Cura\u00e7ao"
+        "Curaçao"
       ],
       "standings": [
         {
@@ -359,7 +359,7 @@
         },
         {
           "team_id": 20,
-          "team_name": "Cura\u00e7ao",
+          "team_name": "Curaçao",
           "flag_svg": "/flags/cw.svg",
           "flag_png": "https://flagcdn.com/w80/cw.png",
           "fifa_code": "CUW",

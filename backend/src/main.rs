@@ -146,7 +146,7 @@ async fn main() -> std::io::Result<()> {
     let db_pool_data = web::Data::new(db_pool);
 
     // Start the live-results poller if API key is set
-    if let Ok(api_key) = dotenvy::var("FOOTBALL_DATA_API_KEY") {
+    if let Ok(api_key) = std::env::var("FOOTBALL_DATA_API_KEY") {
         let artifacts_path = std::env::var("ARTIFACTS_PATH")
             .unwrap_or_else(|_| "../artifacts".into());
         poller::start(

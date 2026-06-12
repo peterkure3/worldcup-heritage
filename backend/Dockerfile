@@ -19,6 +19,7 @@ COPY artifacts/predictions/2026_predictions_xgboost_v1_tuned.json /app/artifacts
 COPY artifacts/predictions/tournament_simulation_xgboost_v1_tuned.json /app/artifacts/predictions/tournament_simulation_xgboost_v1_tuned.json
 COPY backend/migrations/init.sql /app/backend/migrations/init.sql
 
+ENV MATCHES_PATH=/app/artifacts/2026_matches.json
 ENV GROUPS_PATH=/app/artifacts/groups.json
 ENV PREDICTIONS_PATH=/app/artifacts/predictions/2026_predictions_xgboost_v1_tuned.json
 ENV SIMULATION_PATH=/app/artifacts/predictions/tournament_simulation_xgboost_v1_tuned.json
